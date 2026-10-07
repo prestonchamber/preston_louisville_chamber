@@ -162,6 +162,7 @@
 		"@playwright/test": "1.57.0",
 		"@tailwindcss/postcss": "4.1.18",
 		"@testcontainers/postgresql": "11.10.0",
+		"@types/mdx": "^2.0.14",
 		"@types/node": "25.0.3",
 		"@types/nprogress": "0.2.3",
 		"@types/papaparse": "5.5.2",

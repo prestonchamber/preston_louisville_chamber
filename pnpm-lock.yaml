@@ -348,6 +348,9 @@ importers:
       '@testcontainers/postgresql':
         specifier: 11.10.0
         version: 11.10.0
+      '@types/mdx':
+        specifier: ^2.0.14
+        version: 2.0.14
       '@types/node':
         specifier: 25.0.3
         version: 25.0.3
