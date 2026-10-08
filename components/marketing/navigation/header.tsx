@@ -112,7 +112,7 @@ export function Header() {
 					</div>
 
 					{/* Desktop Nav Links - Left (after logo) */}
-					<div className="hidden flex-1 items-center gap-2 lg:flex">
+					{/* <div className="hidden flex-1 items-center gap-2 lg:flex">
 						<NavigationMenu>
 							<NavigationMenuList>
 								<NavigationMenuItem>
@@ -187,12 +187,12 @@ export function Header() {
 								</NavigationMenuItem>
 							</NavigationMenuList>
 						</NavigationMenu>
-					</div>
+					</div> */}
 
 					{/* Right Side - Auth & Mobile Menu */}
 					<div className="flex items-center justify-end gap-4">
 						{/* Desktop Auth */}
-						<div className="hidden shrink-0 items-center gap-5 lg:flex">
+						{/* <div className="hidden shrink-0 items-center gap-5 lg:flex">
 							{loaded && user ? (
 								<Link
 									href="/dashboard"
@@ -225,10 +225,10 @@ export function Header() {
 									</Link>
 								</div>
 							) : null}
-						</div>
+						</div> */}
 
 						{/* Mobile Menu Button */}
-						<button
+						{/* <button
 							type="button"
 							onClick={() => setMenuOpen(!menuOpen)}
 							aria-label="Toggle menu"
@@ -243,7 +243,7 @@ export function Header() {
 							) : (
 								<MenuIcon className="size-6" />
 							)}
-						</button>
+						</button> */}
 					</div>
 				</div>
 

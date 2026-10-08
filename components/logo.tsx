@@ -18,7 +18,7 @@ export function Logo({
 				className,
 			)}
 		>
-			<div className="flex size-9 items-center justify-center p-1">
+			{/* <div className="flex size-9 items-center justify-center p-1">
 				<div className="flex size-7 items-center justify-center rounded-md border bg-primary text-primary-foreground">
 					<svg
 						width="16"
@@ -39,7 +39,7 @@ export function Logo({
 						</g>
 					</svg>
 				</div>
-			</div>
+			</div> */}
 			{withLabel && (
 				<span className="ml-2 hidden font-bold text-lg md:block">
 					{appConfig.appName}

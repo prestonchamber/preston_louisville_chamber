@@ -16,7 +16,7 @@ export default function MarketingLayout({ children }: { children: ReactNode }) {
 			<div className="bg-marketing-bg text-marketing-fg font-display-headings">
 				<Header />
 				<main className="min-h-screen">{children}</main>
-				<Footer />
+				{/* <Footer /> */}
 			</div>
 			<ThemeToggle className="fixed right-4 bottom-4 z-50 rounded-full" />
 			<CookieBanner />

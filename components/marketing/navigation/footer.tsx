@@ -75,7 +75,7 @@ export function Footer() {
 						<AppInfo />
 
 						{/* Links Grid */}
-						<nav className="grid grid-cols-2 gap-8 sm:grid-cols-4 lg:grid-cols-2 xl:grid-cols-4">
+						{/* <nav className="grid grid-cols-2 gap-8 sm:grid-cols-4 lg:grid-cols-2 xl:grid-cols-4">
 							{footerLinks.map((group) => (
 								<div key={group.group} className="flex flex-col gap-4">
 									<h3 className="font-semibold tracking-wider text-marketing-fg uppercase text-xs">
@@ -95,7 +95,7 @@ export function Footer() {
 									</ul>
 								</div>
 							))}
-						</nav>
+						</nav> */}
 					</div>
 
 					{/* Bottom Section */}

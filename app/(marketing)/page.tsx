@@ -112,17 +112,17 @@ export default async function HomePage() {
 
 	return (
 		<>
-			<OrganizationJsonLd />
-			<WebSiteJsonLd />
+			{/* <OrganizationJsonLd /> */}
+			{/* <WebSiteJsonLd /> */}
 			<HeroSection />
-			<LogoCloudSection />
-			<FeaturesSection />
-			<StatsSection />
-			<TestimonialsSection />
-			<FaqSection content={faqContent} />
-			<PricingSection />
-			<LatestArticlesSection posts={posts} />
-			<CtaSection content={ctaContent} />
+			{/* <LogoCloudSection /> */}
+			{/* <FeaturesSection /> */}
+			{/* <StatsSection /> */}
+			{/* <TestimonialsSection /> */}
+			{/* <FaqSection content={faqContent} /> */}
+			{/* <PricingSection /> */}
+			{/* <LatestArticlesSection posts={posts} /> */}
+			{/* <CtaSection content={ctaContent} /> */}
 		</>
 	);
 }

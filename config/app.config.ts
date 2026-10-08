@@ -1,15 +1,15 @@
 import { getBaseUrl } from "@/lib/utils";
 
 export const appConfig = {
-	appName: "Acme",
-	description: `Acme's description`,
+	appName: "Preston Chamber",
+	description: `Preston Chamber Louisville`,
 	baseUrl: getBaseUrl(),
 	// Contact information (displayed on contact page)
 	contact: {
 		enabled: true,
 		email: "hello@yourdomain.com",
 		phone: "(123) 456-7890",
-		address: "123 Main St, San Francisco, CA",
+		address: "CITY OF LYNNVIEW, LOUISVILLE, KY 40213",
 	},
 	// Site sections - enable/disable major parts of the site
 	site: {
